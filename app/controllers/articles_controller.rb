@@ -6,8 +6,8 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    article = Article.new(title: 'Ntaate new articles with many pictures', body:'article with many pictures to present her coach.' )
-    article.save
+    # article = Article.new(title: 'Ntaate new articles with many pictures', body:'article with many pictures to present her coach.' )
+    # article.save
     # render json: {
     #   message: 'Yu have triggered function function'
     # }
