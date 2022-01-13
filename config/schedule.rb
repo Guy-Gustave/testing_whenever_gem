@@ -22,6 +22,7 @@ set :output, "log/cron.log"
 
 every 1.minute do
   runner "ArticlesController.new.create"
+  rake puts "Hi this is how to schedule an event"
 end
 
 
